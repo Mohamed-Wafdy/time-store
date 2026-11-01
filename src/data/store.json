@@ -1,0 +1,400 @@
+{
+  "brand": "TIME",
+  "searchPlaceholder": "ابحث عن ساعتك المفضلة ...",
+  "currency": "ج.م",
+  "nav": [
+    {
+      "label": "الرئيسية",
+      "to": "/"
+    },
+    {
+      "label": "جميع الساعات",
+      "to": "/categories"
+    },
+    {
+      "label": "الرجالية",
+      "to": "/categories",
+      "filter": "men"
+    },
+    {
+      "label": "النسائية",
+      "to": "/categories",
+      "filter": "women"
+    },
+    {
+      "label": "العلامات التجارية",
+      "to": "/categories"
+    },
+    {
+      "label": "العروض",
+      "to": "/categories",
+      "filter": "offers"
+    }
+  ],
+  "heroSlides": [
+    {
+      "image": "/images/hd/hero-1.jpg",
+      "alt": "ساعة BOSS فاخرة"
+    },
+    {
+      "image": "/images/hd/image.png",
+      "alt": "ساعة بمينا خضراء"
+    }
+  ],
+  "categories": [
+    {
+      "id": "men",
+      "name": "ساعات رجالية",
+      "short": "رجالية",
+      "image": "/images/cat-men.jpg"
+    },
+    {
+      "id": "women",
+      "name": "ساعات نسائية",
+      "short": "نسائية",
+      "image": "/images/cat-women.jpg"
+    },
+    {
+      "id": "smart",
+      "name": "ساعات ذكية",
+      "short": "ذكية",
+      "image": "/images/cat-smart.jpg"
+    },
+    {
+      "id": "luxury",
+      "name": "ساعات فاخرة",
+      "short": "فاخرة",
+      "image": "/images/cat-luxury.jpg"
+    },
+    {
+      "id": "best",
+      "name": "أكثر مبيعاً",
+      "short": "الأكثر",
+      "image": "/images/cat-best.jpg"
+    },
+    {
+      "id": "offers",
+      "name": "عروض خاصة",
+      "short": "عروض",
+      "image": "/images/cat-offers.jpg"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "label": "الكل"
+    },
+    {
+      "id": "men",
+      "label": "رجالية"
+    },
+    {
+      "id": "women",
+      "label": "نسائية"
+    },
+    {
+      "id": "smart",
+      "label": "ذكية"
+    },
+    {
+      "id": "luxury",
+      "label": "فاخرة"
+    },
+    {
+      "id": "offers",
+      "label": "العروض"
+    }
+  ],
+  "bestSellersTitle": "الأكثر مبيعاً",
+  "products": [
+    {
+      "id": 1,
+      "name": "Emporio Armani",
+      "category": "men",
+      "type": "ساعة رجالية",
+      "price": 4999,
+      "rating": 4.5,
+      "reviews": 120,
+      "image": "/images/hd/p-armani.jpg",
+      "bestSeller": true,
+      "oldPrice": 5999
+    },
+    {
+      "id": 2,
+      "name": "Casio",
+      "category": "men",
+      "type": "ساعة رجالية",
+      "price": 2499,
+      "rating": 4.5,
+      "reviews": 85,
+      "image": "/images/hd/p-casio.jpg",
+      "bestSeller": true
+    },
+    {
+      "id": 3,
+      "name": "Fossil",
+      "category": "men",
+      "type": "ساعة رجالية",
+      "price": 4299,
+      "rating": 4.5,
+      "reviews": 64,
+      "image": "/images/hd/p-fossil.jpg",
+      "bestSeller": true,
+      "oldPrice": 5199
+    },
+    {
+      "id": 4,
+      "name": "Daniel Klein",
+      "category": "women",
+      "type": "ساعة نسائية",
+      "price": 3299,
+      "rating": 4.5,
+      "reviews": 92,
+      "image": "/images/hd/p-klein.jpg",
+      "bestSeller": true
+    },
+    {
+      "id": 5,
+      "name": "Tissot",
+      "category": "luxury",
+      "type": "ساعة رجالية",
+      "price": 6999,
+      "rating": 4.5,
+      "reviews": 110,
+      "image": "/images/hd/p-tissot.jpg",
+      "bestSeller": true
+    },
+    {
+      "id": 6,
+      "name": "Michael Kors",
+      "category": "women",
+      "type": "ساعة نسائية",
+      "price": 4199,
+      "rating": 4.5,
+      "reviews": 78,
+      "image": "/images/hd/p-kors.jpg",
+      "bestSeller": true,
+      "oldPrice": 4999
+    },
+    {
+      "id": 7,
+      "name": "Huawei",
+      "category": "smart",
+      "type": "ساعة ذكية",
+      "price": 5499,
+      "rating": 4.5,
+      "reviews": 96,
+      "image": "/images/hd/p-huawei.jpg",
+      "bestSeller": true
+    },
+    {
+      "id": 8,
+      "name": "Michael Kors",
+      "category": "women",
+      "type": "ساعة نسائية",
+      "price": 3799,
+      "rating": 4.5,
+      "reviews": 69,
+      "image": "/images/hd/p-kors-green.jpg",
+      "bestSeller": true
+    },
+    {
+      "id": 9,
+      "name": "Vacheron Constantin",
+      "category": "luxury",
+      "type": "ساعة فاخرة",
+      "price": 18999,
+      "rating": 4.5,
+      "reviews": 140,
+      "image": "/images/hd/p-gold.jpg",
+      "bestSeller": false,
+      "oldPrice": 21999
+    },
+    {
+      "id": 10,
+      "name": "Seiko",
+      "category": "women",
+      "type": "ساعة نسائية",
+      "price": 5299,
+      "rating": 4.5,
+      "reviews": 88,
+      "image": "/images/hd/p-pearl.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 11,
+      "name": "Samsung Galaxy",
+      "category": "smart",
+      "type": "ساعة ذكية",
+      "price": 6499,
+      "rating": 4.5,
+      "reviews": 152,
+      "image": "/images/hd/p-smart2.jpg",
+      "bestSeller": false
+    },
+    {
+      "id": 12,
+      "name": "Tudor",
+      "category": "luxury",
+      "type": "ساعة فاخرة",
+      "price": 15499,
+      "rating": 4.5,
+      "reviews": 47,
+      "image": "/images/hd/p-diver.jpg",
+      "bestSeller": false,
+      "oldPrice": 18499
+    }
+  ],
+  "bottomNav": [
+    "الرئيسية",
+    "المفضلة",
+    "الأقسام",
+    "السلة"
+  ],
+  "categoriesPage": {
+    "title": "جميع الساعات",
+    "subtitle": "تصفح مجموعتنا حسب القسم",
+    "sortLabel": "ترتيب حسب",
+    "sorts": [
+      {
+        "id": "default",
+        "label": "الافتراضي"
+      },
+      {
+        "id": "price-asc",
+        "label": "السعر: من الأقل"
+      },
+      {
+        "id": "price-desc",
+        "label": "السعر: من الأعلى"
+      }
+    ],
+    "empty": "لا توجد منتجات في هذا القسم",
+    "countLabel": "منتج"
+  },
+  "viewAll": "عرض الكل",
+  "whatsapp": "201025532830",
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "السلة فارغة",
+    "total": "الإجمالي",
+    "checkout": "إتمام الشراء",
+    "added": "تمت الإضافة إلى السلة",
+    "remove": "حذف",
+    "orderIntro": "مرحباً، أريد طلب المنتجات التالية:",
+    "orderTotal": "الإجمالي"
+  },
+  "favorites": {
+    "title": "المفضلة",
+    "empty": "لا توجد منتجات في المفضلة بعد",
+    "added": "تمت الإضافة إلى المفضلة",
+    "removed": "تمت الإزالة من المفضلة"
+  },
+  "search": {
+    "noResults": "لا توجد نتائج",
+    "resultsFor": "نتائج البحث عن"
+  },
+  "home": {
+    "features": [
+      {
+        "icon": "truck",
+        "title": "شحن مجاني",
+        "text": "لجميع الطلبات فوق 2,000 ج.م"
+      },
+      {
+        "icon": "shield",
+        "title": "ضمان أصلي",
+        "text": "ضمان لمدة سنتين على كل ساعة"
+      },
+      {
+        "icon": "refresh",
+        "title": "استرجاع سهل",
+        "text": "إرجاع خلال 14 يوماً"
+      },
+      {
+        "icon": "headset",
+        "title": "دعم واتساب",
+        "text": "نرد عليك طوال أيام الأسبوع"
+      }
+    ],
+    "newArrivalsTitle": "وصل حديثاً",
+    "promo": {
+      "image": "/images/hd/image.png",
+      "tag": "عرض لفترة محدودة",
+      "title": "خصم حتى 30% على الساعات الفاخرة",
+      "text": "اختر ساعتك الآن قبل نفاد الكمية",
+      "cta": "تسوق العرض",
+      "filter": "luxury"
+    },
+    "brandsTitle": "العلامات التجارية",
+    "brands": [
+      "Emporio Armani",
+      "Casio",
+      "Fossil",
+      "Tissot",
+      "Michael Kors",
+      "Huawei",
+      "Seiko",
+      "Tudor"
+    ],
+    "testimonialsTitle": "آراء عملائنا",
+    "testimonials": [
+      {
+        "name": "أحمد محمد",
+        "city": "القاهرة",
+        "text": "الساعة وصلت بسرعة وبحالة ممتازة، والتعامل عبر واتساب سهل جداً.",
+        "rating": 5
+      },
+      {
+        "name": "سارة علي",
+        "city": "الإسكندرية",
+        "text": "تشكيلة رائعة وأسعار مناسبة، اشتريت هدية لزوجي وكان سعيداً بها.",
+        "rating": 5
+      },
+      {
+        "name": "محمود حسن",
+        "city": "الجيزة",
+        "text": "منتجات أصلية وخدمة عملاء محترمة، أنصح بالتعامل معهم.",
+        "rating": 4
+      }
+    ],
+    "newsletter": {
+      "title": "اشترك في نشرتنا",
+      "text": "كن أول من يعرف عن العروض والساعات الجديدة",
+      "placeholder": "بريدك الإلكتروني",
+      "cta": "اشترك",
+      "success": "تم الاشتراك بنجاح"
+    }
+  },
+  "footer": {
+    "about": "متجر TIME لأفخم الساعات الأصلية من أشهر العلامات العالمية.",
+    "copyright": "© 2026 TIME. جميع الحقوق محفوظة.",
+    "contactTitle": "تواصل معنا",
+    "phone": "01025532830",
+    "linksTitle": "روابط سريعة"
+  },
+  "productPage": {
+    "addToCart": "أضف إلى السلة",
+    "buyNow": "اشترِ الآن عبر واتساب",
+    "quantity": "الكمية",
+    "inStock": "متوفر في المخزون",
+    "related": "منتجات مشابهة",
+    "notFound": "المنتج غير موجود",
+    "backToShop": "العودة للمتجر",
+    "home": "الرئيسية",
+    "specsTitle": "المواصفات",
+    "specs": {
+      "brand": "العلامة التجارية",
+      "type": "النوع",
+      "warranty": "الضمان",
+      "warrantyValue": "سنتان"
+    },
+    "descriptions": {
+      "men": "ساعة رجالية أنيقة بتصميم عصري وخامات عالية الجودة، مثالية للعمل والمناسبات اليومية.",
+      "women": "ساعة نسائية راقية بلمسات ناعمة وتفاصيل دقيقة تضيف أناقة لإطلالتك.",
+      "smart": "ساعة ذكية متطورة لتتبع نشاطك وصحتك واستقبال الإشعارات بسهولة.",
+      "luxury": "ساعة فاخرة مصنوعة بحرفية عالية لعشاق التميز والتفاصيل الاستثنائية."
+    }
+  },
+  "offerBadge": "خصم"
+}
